@@ -158,16 +158,17 @@ codes = list(map(int, list(codesStr.split(","))))
 print(f"Parsed {len(codes)} codes")
 
 
-# ??? Not sure what the input is supposed to look like, definitely not strings, 
-# but integer ASCII codes, but is movement '10' different than newline '10'?
-# These are also too long I think?
-inputs = [
-    "A,B,B,B,C" + chr(10),
-    "L,10,R,8,R,8,L,10,R,8,R,8" + chr(10),
-    "L,10,L,12,R,8,R,10,R,10,L,12,R,10" + chr(10),
-    "R,10,L,12,R,10,L,10,R,8,R,8" + chr(10),
-    "n" + chr(10)
-]
+# A,A,B,C,B,C,B,C,C,A
+# A: L,10,R,8,R,8
+# B: L,10,L,12,R,8,R,10
+# C: R,10,L,12,R,10
+inputs = []
+inputs.extend(list(map(ord, "A,A,B,C,B,C,B,C,C,A\n")))
+inputs.extend(list(map(ord, "L,10,R,8,R,8\n")))
+inputs.extend(list(map(ord, "L,10,L,12,R,8,R,10\n")))
+inputs.extend(list(map(ord, "R,10,L,12,R,10\n")))
+inputs.extend(list(map(ord, "n\n")))
+
 
 # Add extra memory for writing past the codes input
 codes.extend([0] * 10240)
