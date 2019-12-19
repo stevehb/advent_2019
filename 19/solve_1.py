@@ -1,4 +1,5 @@
 import itertools
+import time
 
 def runProgram(machineStates, srcIdx, destIdx):
 
@@ -162,6 +163,7 @@ codes.extend([0] * 10240)
 MAX_X = 50
 MAX_Y = 50
 count = 0
+t0 = time.perf_counter()
 for y in range(0, MAX_Y):
     for x in range(0, MAX_X):
         machineStates = [
@@ -180,7 +182,9 @@ for y in range(0, MAX_Y):
         else:
             print(".", end="")
     print("")
-print(f"\nTotal hits: {count}")
+t1 = time.perf_counter()
+
+print(f"\nTotal hits: {count}; elapsed={t1-t0:0.3f} sec")
 
 
 # Total count 229 is too high
