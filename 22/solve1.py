@@ -11,7 +11,6 @@ for line in lines:
 
     if line.startswith("deal into new stack"):
         cards.reverse()
-        continue
 
     if line.startswith("deal with increment"):
         incr = int(line.rsplit(' ', 1)[1])
