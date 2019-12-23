@@ -1,0 +1,103 @@
+Read 100 shuffling instructions
+    [ 0] Index of card 2019: 2547
+    [ 1] Index of card 2019: 7459
+    [ 2] Index of card 2019: 5010
+    [ 3] Index of card 2019: 5322
+    [ 4] Index of card 2019: 5128
+    [ 5] Index of card 2019: 7867
+    [ 6] Index of card 2019: 2751
+    [ 7] Index of card 2019: 5705
+    [ 8] Index of card 2019: 9774
+    [ 9] Index of card 2019: 5801
+    [10] Index of card 2019: 8354
+    [11] Index of card 2019: 1652
+    [12] Index of card 2019: 1177
+    [13] Index of card 2019: 8046
+    [14] Index of card 2019: 6144
+    [15] Index of card 2019: 2591
+    [16] Index of card 2019: 7946
+    [17] Index of card 2019: 3763
+    [18] Index of card 2019: 7941
+    [19] Index of card 2019: 8830
+    [20] Index of card 2019: 10
+    [21] Index of card 2019: 2889
+    [22] Index of card 2019: 1254
+    [23] Index of card 2019: 250
+    [24] Index of card 2019: 8743
+    [25] Index of card 2019: 8730
+    [26] Index of card 2019: 4295
+    [27] Index of card 2019: 7360
+    [28] Index of card 2019: 4262
+    [29] Index of card 2019: 2411
+    [30] Index of card 2019: 3966
+    [31] Index of card 2019: 9731
+    [32] Index of card 2019: 3383
+    [33] Index of card 2019: 3788
+    [34] Index of card 2019: 2206
+    [35] Index of card 2019: 5940
+    [36] Index of card 2019: 2783
+    [37] Index of card 2019: 2602
+    [38] Index of card 2019: 811
+    [39] Index of card 2019: 9195
+    [40] Index of card 2019: 6115
+    [41] Index of card 2019: 7202
+    [42] Index of card 2019: 7101
+    [43] Index of card 2019: 9984
+    [44] Index of card 2019: 22
+    [45] Index of card 2019: 924
+    [46] Index of card 2019: 9082
+    [47] Index of card 2019: 3953
+    [48] Index of card 2019: 8224
+    [49] Index of card 2019: 1782
+    [50] Index of card 2019: 6989
+    [51] Index of card 2019: 5781
+    [52] Index of card 2019: 8616
+    [53] Index of card 2019: 6339
+    [54] Index of card 2019: 8407
+    [55] Index of card 2019: 5536
+    [56] Index of card 2019: 8741
+    [57] Index of card 2019: 852
+    [58] Index of card 2019: 2773
+    [59] Index of card 2019: 1244
+    [60] Index of card 2019: 859
+    [61] Index of card 2019: 5604
+    [62] Index of card 2019: 8808
+    [63] Index of card 2019: 4760
+    [64] Index of card 2019: 5891
+    [65] Index of card 2019: 4115
+    [66] Index of card 2019: 7387
+    [67] Index of card 2019: 2619
+    [68] Index of card 2019: 118
+    [69] Index of card 2019: 9888
+    [70] Index of card 2019: 5009
+    [71] Index of card 2019: 4997
+    [72] Index of card 2019: 4166
+    [73] Index of card 2019: 8074
+    [74] Index of card 2019: 1186
+    [75] Index of card 2019: 9117
+    [76] Index of card 2019: 8150
+    [77] Index of card 2019: 1958
+    [78] Index of card 2019: 2774
+    [79] Index of card 2019: 4952
+    [80] Index of card 2019: 9470
+    [81] Index of card 2019: 6734
+    [82] Index of card 2019: 5834
+    [83] Index of card 2019: 1620
+    [84] Index of card 2019: 9337
+    [85] Index of card 2019: 2508
+    [86] Index of card 2019: 4615
+    [87] Index of card 2019: 5981
+    [88] Index of card 2019: 5350
+    [89] Index of card 2019: 4851
+    [90] Index of card 2019: 5155
+    [91] Index of card 2019: 8787
+    [92] Index of card 2019: 8758
+    [93] Index of card 2019: 90
+    [94] Index of card 2019: 9916
+    [95] Index of card 2019: 4001
+    [96] Index of card 2019: 5555
+    [97] Index of card 2019: 4451
+    [98] Index of card 2019: 3554
+    [99] Index of card 2019: 7860
+
+Final index of card 2019: 7860

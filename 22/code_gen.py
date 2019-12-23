@@ -2,13 +2,19 @@ import itertools
 import time
 
 nLoops = 101741582076661
+nLoops = 10
 nCards = 119315717514047
 cardVal = 2020
 cardIdx = 2020
 
 loopCnt = 0
+print(f"[{loopCnt:2d}] cardIdx={cardIdx}")
+positions = set()
+positions.add(cardIdx)
+
 t0 = time.perf_counter()
 for _ in itertools.repeat(None, nLoops):
+    startIdx = cardIdx
     cardIdx = (cardIdx * 31) % nCards
     cardIdx = nCards - (cardIdx + 1)
     cardIdx = nCards - (119315717506489 - cardIdx)
@@ -110,11 +116,18 @@ for _ in itertools.repeat(None, nLoops):
     cardIdx -= 897
     cardIdx = (cardIdx * 36) % nCards
 
+
     loopCnt += 1
-    if loopCnt % 1000000 == 0:
-        t1 = time.perf_counter()
-        tDiff = t1 - t0
-        totalTimeEst = (nLoops / loopCnt) * tDiff 
-        print(f"    [{loopCnt}] {100 * loopCnt / nLoops}% elapsed={t1-t0:0.3f}, totalEst={totalTimeEst} sec")
+    print(f"[{loopCnt:2d}] startIdx={startIdx} cardIdx={cardIdx} diff={cardIdx-startIdx}")
+    if(cardIdx in positions):
+        print(f" -- REPEATED INDEX!!!")
+        break
+    positions.add(cardIdx)
+
+    # if loopCnt % 1000000 == 0:
+    #     t1 = time.perf_counter()
+    #     tDiff = t1 - t0
+    #     totalTimeEst = (nLoops / loopCnt) * tDiff 
+    #     print(f"    [{loopCnt}] {100 * loopCnt / nLoops}% elapsed={t1-t0:0.3f}, totalEst={totalTimeEst} sec")
 
 print(f"\nFinal index of card {cardVal}: {cardIdx}")
